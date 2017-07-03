@@ -1,16 +1,27 @@
 body {
-  font-family: Georgia;
+  font-family: "Cheltenham", Georgia;
 }
 
 .nav {
   display: inline;
-  height: 12%;
+  height: 8%;
   width: 100%;
   position: fixed;
+  background: #fff;
+  margin: -10px 0 0 25px;
+  padding: 10px 0 0 30px;
+  border-bottom: 1px solid #ccc;
+  z-index: 1;
 }
 
 .nav * {
   vertical-align: middle;
+}
+
+.nav button {
+  position: relative;
+  left: -50px;
+  background: #fff;
 }
 
 #sections-button {
@@ -55,5 +66,69 @@ body {
 }
 
 .article-links {
-  padding-top: 3%;
+  width: 100%;
+  margin-left: 25px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 4%;
+}
+
+.article-links img {
+  position: relative;
+  left: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 112px;
+}
+
+.article-heading {
+  width: 82%;
+  margin: 0 112px;
+}
+
+.article-heading hr {
+  margin-top: 4px;
+}
+
+.article-heading h4 {
+  margin-top: 2px;
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+.article-heading h1 {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0 10px 0;
+  font-size: 32px;
+}
+
+.author-date * {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#date {
+  font-weight: 300;
+}
+
+#photo-caption {
+  width: 62%;
+}
+
+#photo-caption * {
+  margin: 4px 0 0 0;
+  display: inline;
+}
+
+.grey-text {
+  color: #666;
+  font-size: 13px;
+}
+
+.light-grey-text {
+  color: #999;
+  font-size: 12px;
 }
