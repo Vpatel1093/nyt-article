@@ -132,3 +132,161 @@ body {
   color: #999;
   font-size: 12px;
 }
+
+.main-article {
+  width: 80%;
+  margin-left: 8%;
+  padding: 30px 0 0 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.article-text {
+  margin-left: 8%;
+  width: 66%;
+  font-size: 17px;
+  line-height: 160%;
+}
+
+.main-article a {
+  color: #316891;
+}
+
+.inflation {
+  width: 82%;
+  margin-left: 8%;
+  padding: 10px 0 0 0;
+}
+
+.inflation h3:first-child {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.inflation p:first-of-type {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.infographic img {
+  height: 576px;
+  width: 1024px;
+  position: relative;
+}
+
+.infographic div:nth-child(-n+5) {
+  position: relative;
+  top: -440px;
+  margin-bottom: -440px;
+}
+
+.infographic div:nth-child(n+6) {
+  position: relative;
+  top: -170px;
+  margin-bottom: -170px;
+}
+
+.info-caption {
+  width: 24%;
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: top;
+}
+
+.info-caption * {
+  display: inline;
+}
+
+.info-caption h5 {
+  margin: 0;
+  font-size: 11px;
+}
+
+.info-caption p {
+  font-size: 1px;
+}
+
+#info-authors {
+  font-size: 11px;
+  font-weight: 300;
+  color: #999;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.inflation hr:first-of-type {
+  border: none;
+  width: 100%;
+  height: 1px;
+  color: #e2e2e2;
+  background: #e2e2e2;
+}
+
+.inflation.article-text {
+  width: 63%;
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+
+.media-caption {
+  clear: both;
+  width: 730px;
+  padding-top: 6px;
+  margin-top: 0;
+}
+
+.media-caption * {
+  margin: 0;
+  display: inline;
+}
+
+.media-caption p {
+  font-size: 12px;
+}
+
+.media-caption h6 {
+  font-size: 11px;
+}
+
+.inflation-section {
+  margin-left: 75px;
+}
+
+#end {
+  margin: 0 0 0 75px;
+  width: 50px;
+}
+
+#end-text {
+  width: 655px;
+  margin-left: 75px;
+  margin-top: 14px;
+}
+
+#end-text * {
+  display: inline;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+#end-text h6 {
+  margin-left: 0;
+}
+
+.light-grey-text-link {
+  color: #999;
+  font-size: 11px;
+  border-right: 1px solid #ccc;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none;
+}
+
+#end-text a:last-of-type {
+  border: none;
+}
+
+.additional-links {
+  width: 70%;
+  border-top: 2px solid #e2e2e2;
+}
